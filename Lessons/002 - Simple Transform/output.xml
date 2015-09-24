@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newBooks>
+   <newBook>
+      <countNo>1</countNo>
+      <title>XML Developer's Guide</title>
+   </newBook>
+   <newBook>
+      <countNo>2</countNo>
+      <title>Midnight Rain</title>
+   </newBook>
+   <newBook>
+      <countNo>3</countNo>
+      <title>Maeve Ascendant</title>
+   </newBook>
+   <newBook>
+      <countNo>4</countNo>
+      <title>Oberon's Legacy</title>
+   </newBook>
+   <newBook>
+      <countNo>5</countNo>
+      <title>The Sundered Grail</title>
+   </newBook>
+   <newBook>
+      <countNo>6</countNo>
+      <title>Lover Birds</title>
+   </newBook>
+   <newBook>
+      <countNo>7</countNo>
+      <title>Splish Splash</title>
+   </newBook>
+   <newBook>
+      <countNo>8</countNo>
+      <title>Creepy Crawlies</title>
+   </newBook>
+   <newBook>
+      <countNo>9</countNo>
+      <title>Paradox Lost</title>
+   </newBook>
+   <newBook>
+      <countNo>10</countNo>
+      <title>Microsoft .NET: The Programming Bible</title>
+   </newBook>
+   <newBook>
+      <countNo>11</countNo>
+      <title>MSXML3: A Comprehensive Guide</title>
+   </newBook>
+   <newBook>
+      <countNo>12</countNo>
+      <title>Visual Studio 7: A Comprehensive Guide</title>
+   </newBook>
+</newBooks>
