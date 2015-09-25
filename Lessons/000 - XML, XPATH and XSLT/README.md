@@ -25,7 +25,7 @@ An XML document can be parsed and converted into a tree structure using an "XML 
 
 XML Parsers are generally of two types:
 - SAX
-..* Simple API for XML
+* Simple API for XML
 ..* Streamed, event-based processing
 ..* Memory-efficient
 ..* The parser itself does not hold the full document in memory so tree traversal using XPATH is hard
