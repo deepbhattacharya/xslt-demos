@@ -1,6 +1,6 @@
 # Prerequisites
 
-In this lesson we take a look at the basic concepts associate with the topic.
+In this lesson we take a look at the basic concepts associated with the topic.
 
 # XML
 
@@ -42,14 +42,14 @@ XPath is a language for addressing parts of an XML document, designed to be used
 
 The W3C Recommendation can be found [here](http://www.w3.org/TR/xpath/).
 
-Currently XPATH versions 1.0, 2.0 amnd 3.0 exist; but only the former two (especially 1.0) is widely supported.
+Currently XPATH versions 1.0, 2.0 and 3.0 exist; but only the former two (especially 1.0) is widely supported.
 
 ## Location Paths
 
 - XPATHs are for finding an "address" in a tree
 - This is what we call a "location path"
   * Much like a directory path in our computer
-  * So, for example, looking at books.xml (in the resources folder), the author of the first book can be accessed with the path /catalog/book/author
+  * So, for example, looking at [books.xml](../resources/books.xml), the author of the first book can be accessed with the path /catalog/book/author
   * Of course, as there are multiple book elements under the parent catalog element, we can also add an array index here, like /catalog/book[1]/author
   * This is an *abbreviated format*, the full location path would look something like: /child::catalog/child::book[position()=1]/child::author
   * Each part is called a "location step", so there are three location steps in this location path
