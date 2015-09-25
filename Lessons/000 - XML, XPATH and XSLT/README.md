@@ -25,14 +25,14 @@ An XML document can be parsed and converted into a tree structure using an "XML 
 
 XML Parsers are generally of two types:
 - SAX
-* Simple API for XML
-..* Streamed, event-based processing
-..* Memory-efficient
-..* The parser itself does not hold the full document in memory so tree traversal using XPATH is hard
+  * Simple API for XML
+  * Streamed, event-based processing
+  * Memory-efficient
+  * The parser itself does not hold the full document in memory so tree traversal using XPATH is hard
 - DOM
-..* Document Object Model
-..* Parses the whole document into memory at once
-..* Works well with XPATHs
+  * Document Object Model
+  * Parses the whole document into memory at once
+  * Works well with XPATHs
 
 Discussion on differences [here](http://stackoverflow.com/questions/6828703/what-is-the-difference-between-sax-and-dom).
 
@@ -48,16 +48,16 @@ Currently XPATH versions 1.0, 2.0 amnd 3.0 exist; but only the former two (espec
 
 - XPATHs are for finding an "address" in a tree
 - This is what we call a "location path"
-..* Much like a directory path in our computer
-..* So, for example, looking at books.xml (in the resources folder), the author of the first book can be accessed with the path /catalog/book/author
-..* Of course, as there are multiple book elements under the parent catalog element, we can also add an array index here, like /catalog/book[1]/author
-..* This is an *abbreviated format*, the full location path would look something like: /child::catalog/child::book[position()=1]/child::author
-..* Each part is called a "location step", so there are three location steps in this location path
+  * Much like a directory path in our computer
+  * So, for example, looking at books.xml (in the resources folder), the author of the first book can be accessed with the path /catalog/book/author
+  * Of course, as there are multiple book elements under the parent catalog element, we can also add an array index here, like /catalog/book[1]/author
+  * This is an *abbreviated format*, the full location path would look something like: /child::catalog/child::book[position()=1]/child::author
+  * Each part is called a "location step", so there are three location steps in this location path
 
 ## Location Steps
 
 - A location path is comprised of location steps
 - Each location step is again made of three parts
-..* axis
-..* node-test
-..* (zero or more) predicates
+  * axis
+  * node-test
+  * (zero or more) predicates
