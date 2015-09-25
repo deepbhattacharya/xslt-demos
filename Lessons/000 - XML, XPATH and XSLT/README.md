@@ -106,5 +106,52 @@ An inetersting link on complex predicates [here](http://stackoverflow.com/questi
 
 # XSLT
 
-Initial XSLT Tutorial [here](http://www.cs.ox.ac.uk/dan.olteanu/tutorials/xslt1.pdf).
+Initial XSLT 1.0 Tutorial [here](http://www.cs.ox.ac.uk/dan.olteanu/tutorials/xslt1.pdf).
 
+Main elements of XSLT:
+- defining the structure of the stylesheet
+  * *<xsl:stylesheet>*
+  * <xsl:include>
+  * <xsl:import>
+  * <xsl:import-schema>
+- define template rules and functions and control the way they are invoked
+  * *<xsl:template>*
+  * <xsl:apply-imports>
+  * *<xsl:apply-templates>*
+  * <xsl:call-template>
+  * <xsl:function>
+  * <xsl:next-match>
+- create nodes
+  * <xsl:element>
+  * <xsl:attribute>
+  * <xsl:comment>
+  * <xsl:document>
+  * <xsl:namespace>
+  * <xsl:processing-instruction>
+  * <xsl:text>
+  * *<xsl:value-of>*
+- define variables and parameters
+  * <xsl:variable>
+  * <xsl:param>
+  * <xsl:with-param>
+- copy information from the source document to the result
+  * <xsl:copy>
+  * <xsl:copy-of>
+- conditional processing and iteration
+  * *<xsl:if>*
+  * *<xsl:choose>*
+  * *<xsl:when>*
+  * *<xsl:otherwise>*
+  * *<xsl:for-each>*
+  * <xsl:for-each-group>
+- sorting, searching, and numbering
+  * <xsl:perform-sort>
+  * *<xsl:sort>*
+  * <xsl:number>
+  * <xsl:key>
+  * <xsl:decimal-format>
+- control the output of the stylesheet
+  * <xsl:output>
+  * <xsl:result-document>
+  * <xsl:character-map>
+  * <xsl:output-character>
